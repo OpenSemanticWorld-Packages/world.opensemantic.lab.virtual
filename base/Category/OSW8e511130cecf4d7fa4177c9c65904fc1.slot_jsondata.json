@@ -1,0 +1,37 @@
+{
+    "metaclass": [
+        "Category:OSWecff4345b4b049218f8d6628dc2f2f21"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSWfe72974590fd4e8ba94cd4e8366375e8"
+    ],
+    "uuid": "8e511130-cecf-4d7f-a417-7c9c65904fc1",
+    "name": "Model",
+    "label": [
+        {
+            "text": "Model",
+            "lang": "en"
+        },
+        {
+            "text": "Modell",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "A simulation model",
+            "lang": "en"
+        },
+        {
+            "text": "Ein Simulationsmodell",
+            "lang": "de"
+        }
+    ],
+    "utf8_icon": [
+        "\u25a9",
+        "\u25a6"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:Category"
+    ],
+    "uuid": "ecff4345-b4b0-4921-8f8d-6628dc2f2f21",
+    "name": "MetaModel",
+    "label": [
+        {
+            "text": "Meta Model",
+            "lang": "en"
+        },
+        {
+            "text": "Meta-Modell",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Describes a model recursively by parameters and submodels",
+            "lang": "en"
+        },
+        {
+            "text": "Beschreibt ein Modell rekursiv durch Parameter und Submodelle",
+            "lang": "de"
+        }
+    ]
+}

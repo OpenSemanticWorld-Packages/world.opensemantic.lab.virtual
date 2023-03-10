@@ -1,0 +1,130 @@
+{
+    "@context": [
+        "/wiki/Category:Category?action=raw&slot=jsonschema",
+        {
+            "parameters": {
+                "@id": "Property:HasParameter",
+                "@type": "@id"
+            },
+            "submodels": {
+                "@id": "Property:HasSubmodel",
+                "@type": "@id"
+            }
+        }
+    ],
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Category?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "GenericModel",
+    "title*": {
+        "de": "Meta-Modell",
+        "en": "Meta Model"
+    },
+    "description*": {
+        "de": "Beschreibt ein Modell rekursiv durch Parameter und Submodelle",
+        "en": "Describes a model recursively by parameters and submodels"
+    },
+    "description": "Describes a model recursively by parameters and submodels",
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWecff4345b4b049218f8d6628dc2f2f21"
+            ]
+        },
+        "subclass_of": {
+            "default": [
+                "Category:OSWfe72974590fd4e8ba94cd4e8366375e8"
+            ]
+        },
+        "parameters": {
+            "type": "array",
+            "format": "tabs",
+            "title": "Parameters",
+            "title*": {
+                "de": "Parameter"
+            },
+            "items": {
+                "type": "object",
+                "title": "Parameter",
+                "title*": {
+                    "de": "Parameter"
+                },
+                "headerTemplate": "{{i1}} - {{self.name}}",
+                "required": [
+                    "name",
+                    "type",
+                    "uuid"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "name": {
+                        "title": "Name",
+                        "type": "string"
+                    },
+                    "type": {
+                        "title": "Type",
+                        "type": "string",
+                        "enum": [
+                            "integer",
+                            "number",
+                            "string"
+                        ],
+                        "default": "string"
+                    },
+                    "default": {
+                        "title": "Default value",
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "submodels": {
+            "type": "array",
+            "format": "tabs",
+            "title": "Submodels",
+            "title*": {
+                "de": "Submodelle"
+            },
+            "items": {
+                "type": "object",
+                "title": "Submodel",
+                "title*": {
+                    "de": "Submodell"
+                },
+                "headerTemplate": "{{i1}} - {{self.name}}",
+                "required": [
+                    "uuid"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "name": {
+                        "title": "Name",
+                        "type": "string"
+                    },
+                    "parameters": {
+                        "$ref": "#/properties/parameters"
+                    },
+                    "submodels": {
+                        "$ref": "#/properties/submodels"
+                    }
+                }
+            }
+        }
+    },
+    "uuid": "ecff4345-b4b0-4921-8f8d-6628dc2f2f21"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Model",
+    "@context": [
+        "/wiki/Category:OSWfe72974590fd4e8ba94cd4e8366375e8?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWfe72974590fd4e8ba94cd4e8366375e8?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "8e511130-cecf-4d7f-a417-7c9c65904fc1",
+    "title*": {
+        "en": "Model",
+        "de": "Modell"
+    },
+    "description": "A simulation model",
+    "description*": {
+        "en": "A simulation model",
+        "de": "Ein Simulationsmodell"
+    }
+}
