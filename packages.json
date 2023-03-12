@@ -12,49 +12,9 @@
             "globalID": "world.opensemantic.lab.virtual",
             "label": "OSW Virtual Lab",
             "description": "For modelling, simulation and optimization",
-            "version": "0.1.2",
+            "version": "0.2.0",
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.lab.virtual/main/base/",
             "pages": [
-                {
-                    "name": "OSW2ac4493f8635481eaf1db961b63c8325",
-                    "label": "Data",
-                    "namespace": "NS_CATEGORY",
-                    "urlPath": "Category/OSW2ac4493f8635481eaf1db961b63c8325.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Category/OSW2ac4493f8635481eaf1db961b63c8325.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Category/OSW2ac4493f8635481eaf1db961b63c8325.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Category/OSW2ac4493f8635481eaf1db961b63c8325.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Category/OSW2ac4493f8635481eaf1db961b63c8325.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "OSWfe72974590fd4e8ba94cd4e8366375e8",
-                    "label": "Dataset",
-                    "namespace": "NS_CATEGORY",
-                    "urlPath": "Category/OSWfe72974590fd4e8ba94cd4e8366375e8.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Category/OSWfe72974590fd4e8ba94cd4e8366375e8.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Category/OSWfe72974590fd4e8ba94cd4e8366375e8.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Category/OSWfe72974590fd4e8ba94cd4e8366375e8.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Category/OSWfe72974590fd4e8ba94cd4e8366375e8.slot_jsonschema.json"
-                        }
-                    }
-                },
                 {
                     "name": "OSW8e511130cecf4d7fa4177c9c65904fc1",
                     "label": "Model",
