@@ -12,7 +12,7 @@
             "globalID": "world.opensemantic.lab.virtual",
             "label": "OSW Virtual Lab",
             "description": "For modelling, simulation and optimization",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.lab.virtual/main/base/",
             "pages": [
                 {
@@ -47,6 +47,9 @@
                         "header": {
                             "urlPath": "Category/OSWecff4345b4b049218f8d6628dc2f2f21.slot_header.wikitext"
                         },
+                        "header_template": {
+                            "urlPath": "Category/OSWecff4345b4b049218f8d6628dc2f2f21.slot_header_template.wikitext"
+                        },
                         "jsondata": {
                             "urlPath": "Category/OSWecff4345b4b049218f8d6628dc2f2f21.slot_jsondata.json"
                         },
@@ -59,22 +62,25 @@
                     }
                 },
                 {
-                    "name": "OSW553f78cc66194ae1873241207b906c4b",
-                    "label": "BattmoModel",
+                    "name": "OSW22dc1c3790974a1bb7187d7a77f7e767",
+                    "label": "DataSoftware",
                     "namespace": "NS_CATEGORY",
-                    "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_main.wikitext",
+                    "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_main.wikitext",
                     "slots": {
                         "footer": {
-                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_footer.wikitext"
+                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_footer.wikitext"
                         },
                         "header": {
-                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_header.wikitext"
+                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_header.wikitext"
+                        },
+                        "header_template": {
+                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_header_template.wikitext"
                         },
                         "jsondata": {
-                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_jsondata.json"
+                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_jsondata.json"
                         },
                         "jsonschema": {
-                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_jsonschema.json"
+                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_jsonschema.json"
                         }
                     }
                 }

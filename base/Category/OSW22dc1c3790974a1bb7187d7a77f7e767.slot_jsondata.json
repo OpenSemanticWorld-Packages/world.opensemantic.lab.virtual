@@ -1,0 +1,24 @@
+{
+    "subclass_of": [
+        "Category:OSW77e749fc598341ac8b6d2fff21574058",
+        "Category:OSWda27e2fff10848ebb728ffb69c49a16d"
+    ],
+    "uuid": "22dc1c37-9097-4a1b-b718-7d7a77f7e767",
+    "label": [
+        {
+            "text": "Data software",
+            "lang": "en"
+        },
+        {
+            "text": "Daten-Software",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "This is a Software that delivers data and has one or multiple data sources.",
+            "lang": "en"
+        }
+    ],
+    "name": "DataSoftware"
+}

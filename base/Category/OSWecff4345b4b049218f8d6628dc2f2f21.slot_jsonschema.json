@@ -18,7 +18,7 @@
             "$ref": "/wiki/Category:Category?action=raw&slot=jsonschema"
         }
     ],
-    "title": "GenericModel",
+    "title": "MetaModel",
     "title*": {
         "de": "Meta-Modell",
         "en": "Meta Model"
@@ -35,6 +35,7 @@
             ]
         },
         "subclass_of": {
+            "title": "Subclass of",
             "default": [
                 "Category:OSWfe72974590fd4e8ba94cd4e8366375e8"
             ]
@@ -126,5 +127,8 @@
             }
         }
     },
-    "uuid": "ecff4345-b4b0-4921-8f8d-6628dc2f2f21"
+    "uuid": "ecff4345-b4b0-4921-8f8d-6628dc2f2f21",
+    "required": [
+        "type"
+    ]
 }

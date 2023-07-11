@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW77e749fc598341ac8b6d2fff21574058?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSWda27e2fff10848ebb728ffb69c49a16d?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "DataSoftware",
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW22dc1c3790974a1bb7187d7a77f7e767"
+            ]
+        }
+    }
+}

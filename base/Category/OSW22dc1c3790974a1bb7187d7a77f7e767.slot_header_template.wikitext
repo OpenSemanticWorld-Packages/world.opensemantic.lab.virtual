@@ -1,0 +1,14 @@
+<table class="info_box">
+<tr>
+<th class="heading" colspan="2">{{{_label_schema|Data Software}}}</th>
+</tr>
+<!--
+<tr>
+<td class="subheading" colspan="2">Info</td>
+</tr>
+-->
+<tr>
+<th>{{#switch:{{USERLANGUAGECODE}}|en=Software Instances|de=Software Instanzen}}</th>
+<td>{{#ask: [[Category:OSW589e0b70ae8e40468ec5121f0358f75e]][[HasParentSoftware::{{FULLPAGENAME}}]]}}</td>
+</tr>
+</table>
