@@ -12,7 +12,10 @@
             "globalID": "world.opensemantic.lab.virtual",
             "label": "OSW Virtual Lab",
             "description": "For modelling, simulation and optimization",
-            "version": "0.3.0",
+            "version": "0.4.0",
+            "requiredPackages": [
+                "world.opensemantic.lab"
+            ],
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.lab.virtual/main/base/",
             "pages": [
                 {
@@ -58,29 +61,6 @@
                         },
                         "schema_template": {
                             "urlPath": "Category/OSWecff4345b4b049218f8d6628dc2f2f21.slot_schema_template.text"
-                        }
-                    }
-                },
-                {
-                    "name": "OSW22dc1c3790974a1bb7187d7a77f7e767",
-                    "label": "DataSoftware",
-                    "namespace": "NS_CATEGORY",
-                    "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_header.wikitext"
-                        },
-                        "header_template": {
-                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_header_template.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Category/OSW22dc1c3790974a1bb7187d7a77f7e767.slot_jsonschema.json"
                         }
                     }
                 }
